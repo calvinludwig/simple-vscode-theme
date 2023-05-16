@@ -3,6 +3,10 @@
   "displayName": "simple",
   "description": "a simple theme",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvinludwig/simple-vscode-theme.git"
+  },
   "engines": {
     "vscode": "^1.78.0"
   },
