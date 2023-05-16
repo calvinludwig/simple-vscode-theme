@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "simple",
+        "label": "simple-neutral",
         "uiTheme": "vs",
         "path": "./themes/simple-color-theme.json"
       }
