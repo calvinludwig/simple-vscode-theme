@@ -4,7 +4,7 @@
   "description": "A Minimalistic Visual Studio Code Theme that offers a clean and distraction-free coding experience. With its carefully chosen colors and streamlined design, \"Simplest Theme\" enhances code readability while providing a visually refined and elegant aesthetic. Embrace simplicity and elevate your coding workflow with \"Simplest Theme\" for Visual Studio Code.",
   "publisher": "calvinludwig",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/calvinludwig/simple-vscode-theme.git"
