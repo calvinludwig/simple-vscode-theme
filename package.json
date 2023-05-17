@@ -3,6 +3,7 @@
   "displayName": "simplest",
   "description": "the simplest theme",
   "publisher": "calvinludwig",
+  "type": "module",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -17,9 +18,54 @@
   "contributes": {
     "themes": [
       {
-        "label": "simplest-light",
+        "label": "Simplest Slate Light",
         "uiTheme": "vs",
-        "path": "./themes/simplest-light.json"
+        "path": "./themes/Simplest Slate Light.json"
+      },
+      {
+        "label": "Simplest Slate Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simplest Slate Dark.json"
+      },
+      {
+        "label": "Simplest Gray Light",
+        "uiTheme": "vs",
+        "path": "./themes/Simplest Gray Light.json"
+      },
+      {
+        "label": "Simplest Gray Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simplest Gray Dark.json"
+      },
+      {
+        "label": "Simplest Zinc Light",
+        "uiTheme": "vs",
+        "path": "./themes/Simplest Zinc Light.json"
+      },
+      {
+        "label": "Simplest Zinc Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simplest Zinc Dark.json"
+      },
+      {
+        "label": "Simplest Neutral Light",
+        "uiTheme": "vs",
+        "path": "./themes/Simplest Neutral Light.json"
+      },
+      {
+        "label": "Simplest Neutral Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simplest Neutral Dark.json"
+      },
+      {
+        "label": "Simplest Stone Light",
+        "uiTheme": "vs",
+        "path": "./themes/Simplest Stone Light.json"
+      },
+      {
+        "label": "Simplest Stone Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Simplest Stone Dark.json"
       }
     ]
   }
