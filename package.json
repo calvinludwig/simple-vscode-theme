@@ -4,7 +4,7 @@
   "description": "the simplest theme",
   "publisher": "calvinludwig",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/calvinludwig/simple-vscode-theme.git"
@@ -68,5 +68,9 @@
         "path": "./themes/Simplest Stone Dark.json"
       }
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-google": "^0.14.0"
   }
 }
