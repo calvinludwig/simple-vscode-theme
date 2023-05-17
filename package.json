@@ -1,7 +1,8 @@
 {
-  "name": "simple",
-  "displayName": "simple",
-  "description": "a simple theme",
+  "name": "simplest",
+  "displayName": "simplest",
+  "description": "the simplest theme",
+  "publisher": "calvinludwig",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -16,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "simple-neutral",
+        "label": "simplest-light",
         "uiTheme": "vs",
-        "path": "./themes/simple-color-theme.json"
+        "path": "./themes/simplest-light.json"
       }
     ]
   }

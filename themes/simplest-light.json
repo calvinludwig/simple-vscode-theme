@@ -1,5 +1,5 @@
 {
-	"name": "simple",
+	"name": "simplest",
 	"colors": {
 		"focusBorder": "#6366f1",
 		"foreground": "#262626",
@@ -338,7 +338,7 @@
 		"charts.yellow": "#eab308",
 		"charts.orange": "#f97316",
 		"charts.green": "#22c55e",
-		"charts.purple": "#a855f7",
+		"charts.purple": "#a855f7"
 	},
 	"tokenColors": [
 		{
@@ -347,7 +347,7 @@
 				"constant.numeric",
 				"constant.character",
 				"constant.other",
-				"punctuation.definition.string",
+				"punctuation.definition.string"
 			],
 			"settings": {
 				"foreground": "#065f46"
@@ -371,7 +371,7 @@
 			"scope": [
 				"meta",
 				"support.type",
-				"variable.other.readwrite.alias",
+				"variable.other.readwrite.alias"
 			],
 			"settings": {
 				"foreground": "#6b21a8"
@@ -403,6 +403,6 @@
 			"settings": {
 				"foreground": "#737373"
 			}
-		},
+		}
 	]
 }
