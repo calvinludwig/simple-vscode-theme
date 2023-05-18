@@ -1,6 +1,6 @@
 import colors from "./colors.js";
 
-export function generator(name, grayVariant, darkMode) {
+export function generateVscodeTheme(name, grayVariant, darkMode) {
 	const scale = darkMode
 		? [950, 900, 800, 700, 600, 500, 400, 300, 200, 100, 50]
 		: [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950];

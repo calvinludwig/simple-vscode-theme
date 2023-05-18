@@ -1,6 +1,7 @@
-import { generator } from "./generator.js";
+import { generateVscodeTheme } from "./vscode.js";
 import colors from "./colors.js";
 import fs from "fs";
+import { generateWeztermTheme } from "./wezterm.js";
 
 const variants = [
 	{
@@ -28,13 +29,16 @@ const themes = []
 variants.forEach(variant => {
 	[false, true].forEach(isDark => {
 		const name = `Simplest ${variant.name} ${isDark ? "Dark" : "Light"}`;
-		const content = JSON.stringify(generator(name, variant.grayVariant, isDark), null, 2);
-		fs.writeFileSync(`./themes/${name}.json`, content);
+		const vscodeContent = JSON.stringify(generateVscodeTheme(name, variant.grayVariant, isDark), null, 2);
+		fs.writeFileSync(`./themes/${name}.json`, vscodeContent);
 		themes.push({
 			label: name,
 			uiTheme: isDark ? "vs-dark" : "vs",
 			path: `./themes/${name}.json`,
 		});
+
+		const weztermContent = generateWeztermTheme(variant.grayVariant, isDark);
+		fs.writeFileSync(`./extra/wezterm/${name.replace(/\s/g, '')}.lua`, weztermContent);
 	})
 })
 console.log(JSON.stringify(themes));

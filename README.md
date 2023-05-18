@@ -32,6 +32,6 @@ Experience the power of purposeful colors and the versatility of Tailwind-inspir
 - [ ] PHP
 
 ## Extra softwares support goals
-- [ ] Wezterm
+- [x] Wezterm
 - [ ] Gnome/GTK
 - [ ] Neovim
